@@ -24,8 +24,8 @@ def main(args):
     if len(sys.argv[2:]) == 2:
         while True:
             try:
-                number1 = sys.argv[2]
-                number2 = sys.argv[3]
+                number1 = float(sys.argv[2])
+                number2 = float(sys.argv[3])
             except (IndexError, ValueError):
                 print("Please provide two numeric arguments after the operator.")
                 pass
