@@ -1,2 +1,2 @@
-def multiply(number1: float, number2: float):
-    pass
+def multiply(number1: float, number2: float) -> float:
+    return number1*number2
