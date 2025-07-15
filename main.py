@@ -23,7 +23,6 @@ def main():
 
 
     operator_name = sys.argv[1]
-
     operator_func = operator_functions.get(operator_name)
 
 
