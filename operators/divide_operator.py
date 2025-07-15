@@ -1,2 +1,2 @@
-def divide(number1: int, number2: int):
+def divide(number1: float, number2: float):
     pass

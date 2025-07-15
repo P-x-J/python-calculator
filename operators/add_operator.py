@@ -1,2 +1,2 @@
-def add(operator1: int, operator2: int):
+def add(operator1: float, operator2: float):
     pass

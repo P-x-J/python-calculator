@@ -1,2 +1,2 @@
-def substract(number1: int, number2: int):
+def substract(number1: float, number2: float):
     pass
