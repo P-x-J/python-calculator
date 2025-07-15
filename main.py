@@ -3,7 +3,7 @@ import sys
 from operators import add, divide, multiply, substract
 
 
-def main(args):
+def main():
     arguments_list = sys.argv[2:]
 
     operator_functions = {
@@ -33,6 +33,8 @@ def main(args):
                 break
 
     result = operator_func(number1, number2)
+
+    print(result)
 
 
 if __name__ == '__main__':
